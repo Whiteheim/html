@@ -1,0 +1,18 @@
+div {
+    width: 10px;
+    height: 10px;
+    background-color: #006bc0;
+
+    margin: 5px;
+    padding: 10px;
+}
+
+span {
+    /* 인라인 요소는 내용물의 크기만큼 크기가 조절되어서 
+    임의로 지정 불가 */
+    width: 10px;
+    height: 10px;
+    background-color: #dc3546;
+
+    padding: 10px;
+}

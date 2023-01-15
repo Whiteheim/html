@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    /* vh = View Height */
+    height: 200vh;
+    background-color: #006bc0;
+    border: 4px solid black;
+    position: relative;
+}
+
+.block {
+    width: 30px;
+    height: 30px;
+    background-color: #dc3546;
+    margin: 5px;
+    border: 4px solid black;
+    font-size: 30px;
+}
+
+#a {
+    /* static = 기본 값 */
+    position: static;
+}
+
+#b {
+    position: relative;
+    /* top으로 부터 x만큼 이동 */
+    top: 30px;
+     /* left로 부터 y만큼 이동 */
+    left: 30px;
+}
+
+#c {
+    /* 부모 태그의 position이 relative
+       기본값은 body를 기준으로 움직임 */
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+#d {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* 스크롤 시 화면에 사라지지않고  달라붙음*/
+#e {
+    position: sticky;
+    top:0px;
+}

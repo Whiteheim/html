@@ -1,0 +1,28 @@
+.flex-container {
+    border: 4px solid black;
+    height: 300px;
+    background-color: #1498af;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+   flex-wrap: nowrap;  /* nowrap - 한줄 
+                          wrap - 사이즈가 초과되면 두번쨰줄로 감*/
+}
+
+.item {
+    width: 50px;
+    height: 30px;
+    border: 4px solid black;
+    background-color: #e43681;
+    margin: 5px;
+
+    flex: 1; /* 아이템 1개의 비율 설정 */
+    order: 2; /* 기본값 0 값이 클수록 뒤로 밀려남*/
+}
+
+#item-4 {
+    order: 1;
+}
